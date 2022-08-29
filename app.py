@@ -26,7 +26,7 @@ while go_on:
         # Factorial
         number = int(input("Enter a number > "))
         if number == 0:
-            print("Factorial = ", number)
+            print("Factorial = ", 1)
         elif number > 0:
             factorial = 1
             for i in range(1, (number + 1)):
